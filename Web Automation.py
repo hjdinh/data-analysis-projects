@@ -14,10 +14,10 @@ driver.get('https://myview.pptparkview.com/')
 driver.implicitly_wait(60)
 
 # select id box and input username
-driver.find_element_by_xpath("//input[@ng-model='login.model.username']").send_keys('jdinh')
+driver.find_element_by_xpath("//input[@ng-model='login.model.username']").send_keys('username')
 
 # find password box and input password
-driver.find_element_by_xpath("//input[@ng-model='login.model.password']").send_keys('Cyb3rM4k')
+driver.find_element_by_xpath("//input[@ng-model='login.model.password']").send_keys('password')
 
 # find login button and click
 driver.find_element_by_class_name('btn').click()
